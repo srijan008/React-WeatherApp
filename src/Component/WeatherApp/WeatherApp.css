@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(128deg, #115E8A 0.47%, #2B0D39 95.38%);
+    color: #fff;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;    
+}
+.takeInput{
+    display: flex;
+    gap: 10px;    
+    padding: 0px;
+    margin: 0px;
+    align-items: center;    
+}
+.takeInput input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+.takeInput button{
+    height: 35px;
+    border-radius: 5px;
+}
+.menuBar{
+    border-radius: 8px;
+    margin-top: 80px;
+    background: linear-gradient(-108deg, #115E8A 0.47%, #2B0D39 95.38%);
+    width: 300px;    
+    padding: 9px; 
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+
+}
+.menuBar img{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 100px;
+
+}
+
